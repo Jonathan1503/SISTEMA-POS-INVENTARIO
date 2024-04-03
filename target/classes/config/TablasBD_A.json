@@ -1,0 +1,28 @@
+{
+	"title": "Nombres de las tablas de SuperAndes",
+	"unidadPersistencia": "SuperAndesSQ",
+	"tablas":
+	[
+		"SuperAndesSQ",
+		"ROL_USUARIO",
+		"SUCURSAL",
+		"USUARIO",
+		"PROVEEDOR",
+		"CATEGORIA",
+		"PRODUCTO",
+		"PRODUCTO_PROVEEDOR",
+		"PEDIDO",
+		"PROMOCION",
+		"CLIENTE",
+		"CARRITO",
+		"BODEGA",
+		"ESTANTE",
+		"VENTA",
+		"CONTIENE_BODEGA",
+		"CONTIENE_ESTANTE",
+		"CONTIENE_CARRITO",
+		"PEDIDO_CONSOLIDADO"
+	]
+
+	
+}

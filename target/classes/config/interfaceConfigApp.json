@@ -1,0 +1,259 @@
+{
+	"title": "Aplicación transaccional de Parranderos Uniandes",
+	"frameH": 600,
+	"frameW": 800,
+	"bannerPath": "./src/main/resources/config/logo.png",
+	"menuBar":
+	[
+		{ "menuTitle": "RolUsuario",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarRolUsuario"
+				}
+				
+			]
+		},
+		{ "menuTitle": "Sucursal",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarSucursal"
+				}
+				,{
+					"label": "Indice ocupacion bodegas",
+					"event": "darIndiceOcupacionBodegasSuc1"
+				}
+			]
+		},
+		{ "menuTitle": "Usuario",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarUsuario"
+				}
+			]
+		},
+		{ "menuTitle": "Bodega",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarBodega"
+				},
+				{
+					"label": "Adicionar con producto",
+					"event": "adicionarBodegaProducto"
+				}
+				,{
+					"label": "Indice de ocupacion",
+					"event": "darIndiceOcupacionBodegasSuc"
+				}
+				
+			]
+		},
+		{ "menuTitle": "Estante",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarEstante"
+				},
+				{
+					"label": "Adicionar con producto",
+					"event": "adicionarEstanteProducto"
+				},
+				{
+					"label": "Aprovisionar",
+					"event": "aprovisionarEstante"
+				},
+				{
+					"label": "Indice de ocupacion",
+					"event": "darIndiceOcupacionEstantesSuc"
+				}
+			]
+		},
+		{ "menuTitle": "Proveedor",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarProveedor"
+				}
+			]
+		},
+		{ "menuTitle": "Producto",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarProductos"
+				}
+				,
+				{
+					"label": "Dar productos por caracteristicas",
+					"event": "darProductosPorCaracteristica"
+				},
+				{
+					"label": "Productos con poca demanda",
+					"event": "pocaDemanda"
+				}
+			]
+		},
+		{ "menuTitle": "Cliente",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarCliente"
+				}
+			]
+		},
+		{ "menuTitle": "Promocion",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarPromocion"
+				}
+				,
+				{
+					"label": "Promociones populares",
+					"event": "darPromocionesPopulares"
+				}
+			]
+		},
+		{ "menuTitle": "Pedido",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarPedido"
+				},
+				{
+					"label": "llegada",
+					"event": "llegadaPedido"
+				},
+				{
+					"label": "Compras a proveedores",
+					"event": "darComprasAProveedores"
+				},
+				{
+					"label": "Consolidar pedido",
+					"event": "consolidarPedido"
+				},
+				{
+					"label": "Llegada pedido consolidado",
+					"event": "llegadaPedidoConsolidado"
+				}
+
+
+			]
+		},
+		{ "menuTitle": "Venta",
+		  "options":
+			[
+				{
+					"label": "Registrar venta",
+					"event": "registrarVenta"
+				},
+				{
+					"label": "Total ventas sucursal",
+					"event": "darTotalVentasSucursal"
+				}
+				,
+				{
+					"label": "Dar Ventas por cliente",
+					"event": "darVentasCliente"
+				}
+				,
+				{
+					"label": "Clientes frecuentes",
+					"event": "clientesFrecuentes"
+				},
+				{
+					"label": "Consultar consumo",
+					"event": "consultarConsumo"
+				}
+				
+
+
+			]
+		},
+		{ "menuTitle": "Carrito",
+		  "options":
+			[
+				{
+					"label": "Solicitar un carrito",
+					"event": "solicitarCarrito"
+				},
+				{
+					"label": "Devolver productos carrito",
+					"event": "devolverProductosCarrito"
+				}
+				,
+				{
+					"label": "Abandonar carrito",
+					"event": "abandonarCarrito"
+				}
+				,
+				{
+					"label": "Adicionar producto al carrito",
+					"event": "adicionarProductoCarrito"
+				},
+				{
+					"label": "Quitar producto del carrito",
+					"event": "quitarProductoCarrito"
+				},
+				{
+					"label": "Pagar",
+					"event": "pagar"
+				}
+
+
+			]
+		},
+		{ "menuTitle": "Extra",
+		  "options":
+			[
+				{
+					"label": "Anlisis de operacion",
+					"event": "analisisOperacion"
+				}
+			]
+		},
+		{ "menuTitle": "Mantenimiento",
+		  "options":
+			[
+				{
+					"label": "Mostrar log Parranderos",
+					"event": "mostrarLogParranderos"
+				},
+				{
+					"label": "Mostrar log datanucleus",
+					"event": "mostrarLogDatanuecleus"
+				},
+				{
+					"label": "Limpiar log de parranderos",
+					"event": "limpiarLogParranderos"
+				},
+				{
+					"label": "Limpiar log de datanucleus",
+					"event": "limpiarLogDatanucleus"
+				},
+				{
+					"label": "Limpiar Base de Datos",
+					"event": "limpiarBD"
+				}
+			]
+		}	
+		
+				
+		
+		
+	]
+}
+	
